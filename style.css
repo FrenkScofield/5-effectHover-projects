@@ -1,0 +1,421 @@
+.effectone{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Khula', sans-serif;
+}
+.one .img{
+    
+    background-image: url(image/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;   
+}
+.one .img2{
+    
+    background-image: url(image/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;   
+}
+.one .img3{
+    
+    background-image: url(image/04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;   
+}
+.one .col-4{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+ .one .colorhover{
+    position: absolute;
+    width: 339px;
+    height: 180px;
+    background: linear-gradient(to top,black,transparent);
+    border-radius: 5px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+ .one .p1{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 17px;
+    transition: all .5s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif;   
+}
+.one .p2{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 13px;
+    transition: all 1s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif;   
+}
+.one .col-4:hover .p1{
+    margin-top: -60px;
+    opacity: 1;
+}
+.one .col-4:hover .p2{
+    margin-top: -35px;
+    opacity: 1;
+}
+.one .col-4:hover .colorhover{
+    opacity: 1;
+    margin-top: -179px;
+
+}
+/*sector-2*/
+.two .col-4 .parent{
+    position: relative;  
+    width: 337px;
+    height: 300px;
+}
+.two .pic{
+    width: 337px;
+    height: 300px;
+    transition: all 0.5s   
+}
+.overflo{
+    overflow: hidden;
+}
+.two .parent:hover .pic{
+    transform: scale(1.1);
+
+}
+.two .overlay{
+    position: absolute;
+    width: 337px;
+    height: 304px;
+    top: 0;
+    left: 0;
+    background-color: rgba(116, 27, 143, 0.603);
+    opacity: 0;
+    z-index: 1;
+    transition-duration: .5s;
+    
+}
+.two .overlay:hover{
+    opacity: 0.7;
+}
+.two .p3{
+    position: absolute;
+    margin-top: -23%;
+    margin-left: 95px;
+    font-size: 17px;
+    transition: all .5s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif;
+    z-index: 1;   
+}
+.two .p4{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 13px;
+    transition: all 0.4s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif; 
+    z-index: 1;  
+}
+.two .col-4:hover .p3{
+    margin-top: -14%;
+    opacity: 1;
+    
+}
+.two .col-4:hover .p4{
+    margin-top: -161px;
+    opacity: 1;
+  
+}
+.two .border{
+    position: absolute;
+    opacity: 0;
+    color: white;
+    border: 1px solid #0a0a0a;
+    width: 7%;
+    height: 29px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-left: 108px;
+    margin-top: -104px;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.two .col-4:hover .border{
+    opacity: 1;
+}
+/*section-3*/
+.free .col-4 .main{
+    position: relative;  
+    width: 337px;
+    height: 300px;
+    overflow: hidden;
+}
+.free .pic{
+    width: 337px;
+    height: 300px;
+    transition: all 0.5s   
+}
+.free .overlay{
+    position: absolute;
+    width: 337px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: rgba(29, 28, 29, 0.76);
+    opacity: 0;
+    z-index: 1;
+    transition-duration: .5s;
+    
+}
+.free .overlay:hover{
+    opacity: 0.7;
+}
+.free .p5{
+    position: absolute;
+    margin-top: -31%;
+    margin-left: 100%;
+    font-size: 25px;
+    transition: all .5s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif;
+     
+}
+.free .p6{
+    position: absolute;
+    text-align: center;
+    margin-top: -170px;
+    margin-left: 102%;
+    font-size: 16px;
+    transition: all 0.4s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif; 
+    z-index: 1;  
+}
+.free .col-4:hover .p5{
+    margin-top: 25%;
+    margin-left: 14%;
+    opacity: 1;
+    
+}
+.free .col-4:hover .p6{
+    margin-top: 130px;
+    margin-left: 53px;
+  
+    opacity: 1;
+  
+}
+.free .border2{
+    position: absolute;
+    opacity: 0;
+    color: white;
+    border: 1px solid #0a0a0a;
+    width: 35%;
+    font-size: 18px;
+    height: 29px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-left: 108px;
+    margin-top: 95%;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.free .col-4:hover .border2{
+    opacity: 1;
+    margin-top: 57%;
+}
+/*section-4*/ 
+.four .col-4 .main{
+    position: relative;  
+    width: 337px;
+    height: 300px;
+    overflow: hidden;
+}
+.four .pic{
+    width: 337px;
+    height: 300px;
+    transition: all 0.5s   
+}
+.four .overlay{
+    position: absolute;
+    transition-delay: 0.2s;
+    width: 337px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 234, 208);
+    opacity: 0;
+    z-index: 1;
+    transition-duration: .5s;
+    
+}
+.four .col-4:hover .pic{
+    transform: scale(8.1);
+}
+.four .overlay:hover{
+    opacity: 1;
+}
+.four .p5{
+    position: absolute;
+    transform: scale(0);
+    margin-top: 25%;
+    margin-left: 20%;
+    font-size: 20px;
+    transition: all .5s;
+    opacity: 1;
+    color: black;
+    font-family: 'Khula', sans-serif;
+     
+}
+.four .p6{
+    position: absolute;
+    transform: scale(0);
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 15%;
+    font-size: 16px;
+    transition: all 0.4s;
+    opacity: 0;
+    color: #020202;
+    font-family: 'Khula', sans-serif;
+    z-index: 1;
+}
+.four .col-4:hover .p5{
+    transform: scale(1);
+    opacity: 1;
+    
+}
+.four .col-4:hover .p6{
+   transform: scale(1);
+    opacity: 1;
+  
+}
+.four .border2{
+    position: absolute;
+    transform: scale(0);
+    opacity: 0;
+    color: white;
+    border: 1px solid #0a0a0a;
+    width: 35%;
+    font-size: 18px;
+    height: 29px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-left: 108px;
+    margin-top: 62%;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.four .col-4:hover .border2{
+    opacity: 1;
+    transform: scale(1);
+}
+/*section-5*/
+.five .col-4 .parent{
+    position: relative; 
+    overflow: hidden; 
+   
+}
+.five .pic{
+    width: 337px;
+    height: 300px;
+    transition: all 0.5s  ;
+    transform: scale(1.1);
+    
+     
+}
+.five.overflo{
+    overflow: hidden;
+}
+.five .col-4:hover .pic{
+    transform: scale(1);
+    filter: blur(1.5px);
+
+}
+.five .overlay{
+    position: absolute;
+    width: 337px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    z-index: 1;
+    transition-duration: .5s;
+    
+}
+.five .overlay:hover{
+     opacity: 0.7;
+   
+}
+.five .p3{
+    position: absolute;
+    margin-left: 83px;
+    font-size: 22px;
+    transition: all .5s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif;
+    z-index: 1;  
+    margin-top: 103px;
+}
+.five .p4{
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 115px;
+    font-size: 14px;
+    transition: all 0.4s;
+    opacity: 0;
+    color: white;
+    font-family: 'Khula', sans-serif; 
+    z-index: 1;  
+}
+.five .col-4:hover .p3{
+    
+    opacity: 1;
+    
+}
+.five .col-4:hover .p4{
+    
+    opacity: 1;
+  
+}
+.five .border{
+    position: absolute;
+    opacity: 0;
+    color: white;
+    border: 1px solid #0a0a0a;
+    width: 7%;
+    height: 29px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-left: 108px;
+    margin-top: -104px;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.five .col-4:hover .border{
+    opacity: 1;
+}
